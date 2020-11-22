@@ -1,14 +1,16 @@
 html,input
 {
-font-family: sans-serif;;
+font-family:sans-serif;
 }
+
 body
 {
-    width: 100%;
-    max-width: 600px;
-    margin: 0px auto;
-    padding: 2 em;
+    width:100%;
+    max-width:600px;
+    margin:0px auto;
+    padding:2 em;
 }
+
 .headerContainer
 {
     display: flex;
@@ -19,10 +21,12 @@ body
     padding: 2px;
     margin-bottom: 15px;
 }
+ 
 form
 {
     margin-top: 50px;
 }
+ 
 div
 {
     margin-bottom: 20px;
@@ -51,7 +55,7 @@ input
 
 .slider 
 {
-    width: 100%;
+    width: 40%;
     height: 10px;
     background: #d3d3d3;
     border-radius:5px;
@@ -88,9 +92,9 @@ button
     margin: 0 auto;
 }
  
-error-output{
+error-output
+{
     font-size: 12px;
     font-style: italic;
     color: red;
 }
-

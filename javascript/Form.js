@@ -17,3 +17,16 @@ name.addEventListener('input', function ()
     else
         error.textContent = "Invalid Name";
 });
+
+// Validate Email ID
+const email = document.querySelector('#email');
+const emailError = document.querySelector('.email-error');
+email.addEventListener('input', function () 
+{
+    let emailRegex = new RegExp(/^[a-z0-9A-Z]+([._+-][a-z0-9A-Z]+)*[@][a-z0-9A-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3})?$/);
+    if (emailRegex.test(email.value))
+        emailError.textContent = "";
+    else
+        emailError.textContent = "Invalid Email ID";
+});
+
