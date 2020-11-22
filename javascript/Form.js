@@ -1,3 +1,4 @@
+
 // Event listener for salary range
 const salary = document.querySelector('#salary');
 const output = document.querySelector('.salary-output');
@@ -6,7 +7,7 @@ salary.addEventListener('input', function () {
     output.textContent = salary.value;
 })
 
-// Validate Name
+// Validate Name using Regex
 const name = document.querySelector('#name');
 const error = document.querySelector('.text-error');
 name.addEventListener('input', function () 
@@ -18,7 +19,7 @@ name.addEventListener('input', function ()
         error.textContent = "Invalid Name";
 });
 
-// Validate Email ID
+// Validate Email ID using Regex
 const email = document.querySelector('#email');
 const emailError = document.querySelector('.email-error');
 email.addEventListener('input', function () 
@@ -30,7 +31,7 @@ email.addEventListener('input', function ()
         emailError.textContent = "Invalid Email ID";
 });
 
-//Validate Mobile Number
+//Validate Mobile Number using Regex
 const tel=document.querySelector('#tel');
 const telError=document.querySelector('.tel-error');
 tel.addEventListener('input',function()
@@ -42,7 +43,7 @@ tel.addEventListener('input',function()
         telError.textContent = "Invalid Phone number";
 });
 
-// Validate Password
+// Validate Password using Regex
 const password = document.querySelector('#pwd');
 const passwordError = document.querySelector('.password-error');
 password.addEventListener('input', function () 
